@@ -1,0 +1,462 @@
+[22:24:22.062] Namespace(root_path='../data/Synapse/train_npz/train_npz', dataset='Synapse', list_dir='./lists/Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:27:47.665] Namespace(root_path='../data/Synapse/train_npz/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:28:25.065] Namespace(root_path='../data/Synapse/train_npz/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:28:25.067] 93 iterations per epoch. 13950 max iterations 
+[22:32:49.819] Namespace(root_path='../data/Synapse/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:32:49.821] 93 iterations per epoch. 13950 max iterations 
+[22:34:40.143] Namespace(root_path='../data/Synapse/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:34:40.145] 93 iterations per epoch. 13950 max iterations 
+[22:38:42.125] Namespace(root_path='./data/project_TransUNet/project_TransUNet/data/Synapse/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=4, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=4, num_workers=8, eval_interval=1)
+[22:38:42.127] 93 iterations per epoch. 13950 max iterations 
+[22:42:23.244] Namespace(root_path='./data/project_TransUNet/project_TransUNet/data/Synapse/train_npz', dataset='Synapse', list_dir='./lists/lists_Synapse', num_classes=9, output_dir='./model_output', max_iterations=30000, max_epochs=150, batch_size=24, n_gpu=1, deterministic=1, base_lr=0.01, img_size=224, seed=1234, cfg='./configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, num_workers=8, eval_interval=1)
+[22:42:23.246] 93 iterations per epoch. 13950 max iterations 
+[22:42:31.484] Train epoch: 0 : loss : 0.638032, loss_ce: 0.318082, loss_dice: 0.851332
+[22:42:35.238] Val epoch: 0 : loss : 0.585667, loss_ce: 0.190125, loss_dice: 0.849362
+[22:42:35.317] save model to ./model_output/best_model.pth
+[22:42:43.106] Train epoch: 1 : loss : 0.530594, loss_ce: 0.154964, loss_dice: 0.781014
+[22:42:46.895] Val epoch: 1 : loss : 0.552633, loss_ce: 0.141923, loss_dice: 0.826440
+[22:42:47.001] save model to ./model_output/best_model.pth
+[22:42:54.761] Train epoch: 2 : loss : 0.495153, loss_ce: 0.136173, loss_dice: 0.734474
+[22:42:58.503] Val epoch: 2 : loss : 0.537023, loss_ce: 0.138333, loss_dice: 0.802816
+[22:42:58.611] save model to ./model_output/best_model.pth
+[22:43:06.395] Train epoch: 3 : loss : 0.462741, loss_ce: 0.126264, loss_dice: 0.687058
+[22:43:10.279] Val epoch: 3 : loss : 0.524890, loss_ce: 0.136019, loss_dice: 0.784138
+[22:43:10.387] save model to ./model_output/best_model.pth
+[22:43:18.212] Train epoch: 4 : loss : 0.427301, loss_ce: 0.115078, loss_dice: 0.635450
+[22:43:21.984] Val epoch: 4 : loss : 0.500419, loss_ce: 0.105820, loss_dice: 0.763484
+[22:43:22.082] save model to ./model_output/best_model.pth
+[22:43:29.870] Train epoch: 5 : loss : 0.386331, loss_ce: 0.104017, loss_dice: 0.574541
+[22:43:33.604] Val epoch: 5 : loss : 0.472967, loss_ce: 0.083181, loss_dice: 0.732824
+[22:43:33.704] save model to ./model_output/best_model.pth
+[22:43:41.541] Train epoch: 6 : loss : 0.346629, loss_ce: 0.091979, loss_dice: 0.516395
+[22:43:45.346] Val epoch: 6 : loss : 0.453721, loss_ce: 0.094270, loss_dice: 0.693355
+[22:43:45.455] save model to ./model_output/best_model.pth
+[22:43:53.265] Train epoch: 7 : loss : 0.301239, loss_ce: 0.080537, loss_dice: 0.448373
+[22:43:57.055] Val epoch: 7 : loss : 0.432690, loss_ce: 0.079585, loss_dice: 0.668093
+[22:43:57.166] save model to ./model_output/best_model.pth
+[22:44:04.962] Train epoch: 8 : loss : 0.266847, loss_ce: 0.072491, loss_dice: 0.396417
+[22:44:08.784] Val epoch: 8 : loss : 0.424083, loss_ce: 0.062227, loss_dice: 0.665320
+[22:44:08.888] save model to ./model_output/best_model.pth
+[22:44:16.701] Train epoch: 9 : loss : 0.247480, loss_ce: 0.068560, loss_dice: 0.366759
+[22:44:20.422] Val epoch: 9 : loss : 0.404029, loss_ce: 0.054369, loss_dice: 0.637135
+[22:44:20.529] save model to ./model_output/best_model.pth
+[22:44:28.324] Train epoch: 10 : loss : 0.213299, loss_ce: 0.057742, loss_dice: 0.317004
+[22:44:32.127] Val epoch: 10 : loss : 0.394442, loss_ce: 0.051371, loss_dice: 0.623156
+[22:44:32.238] save model to ./model_output/best_model.pth
+[22:44:40.027] Train epoch: 11 : loss : 0.208630, loss_ce: 0.056662, loss_dice: 0.309942
+[22:44:43.830] Val epoch: 11 : loss : 0.402266, loss_ce: 0.052328, loss_dice: 0.635557
+[22:44:43.909] save model to ./model_output/last_model.pth
+[22:44:51.779] Train epoch: 12 : loss : 0.194015, loss_ce: 0.050454, loss_dice: 0.289723
+[22:44:55.495] Val epoch: 12 : loss : 0.383795, loss_ce: 0.045269, loss_dice: 0.609478
+[22:44:55.599] save model to ./model_output/best_model.pth
+[22:45:03.399] Train epoch: 13 : loss : 0.168735, loss_ce: 0.045629, loss_dice: 0.250805
+[22:45:07.314] Val epoch: 13 : loss : 0.379350, loss_ce: 0.039153, loss_dice: 0.606148
+[22:45:07.418] save model to ./model_output/best_model.pth
+[22:45:15.214] Train epoch: 14 : loss : 0.172135, loss_ce: 0.045544, loss_dice: 0.256528
+[22:45:19.099] Val epoch: 14 : loss : 0.377127, loss_ce: 0.044312, loss_dice: 0.599003
+[22:45:19.204] save model to ./model_output/best_model.pth
+[22:45:27.015] Train epoch: 15 : loss : 0.157977, loss_ce: 0.041717, loss_dice: 0.235483
+[22:45:30.858] Val epoch: 15 : loss : 0.363898, loss_ce: 0.033704, loss_dice: 0.584028
+[22:45:30.963] save model to ./model_output/best_model.pth
+[22:45:38.780] Train epoch: 16 : loss : 0.147309, loss_ce: 0.039351, loss_dice: 0.219281
+[22:45:42.544] Val epoch: 16 : loss : 0.361653, loss_ce: 0.034253, loss_dice: 0.579919
+[22:45:42.650] save model to ./model_output/best_model.pth
+[22:45:50.449] Train epoch: 17 : loss : 0.140810, loss_ce: 0.037704, loss_dice: 0.209548
+[22:45:54.397] Val epoch: 17 : loss : 0.362019, loss_ce: 0.035455, loss_dice: 0.579729
+[22:45:54.503] save model to ./model_output/last_model.pth
+[22:46:02.342] Train epoch: 18 : loss : 0.134198, loss_ce: 0.035698, loss_dice: 0.199865
+[22:46:06.204] Val epoch: 18 : loss : 0.359367, loss_ce: 0.034877, loss_dice: 0.575693
+[22:46:06.314] save model to ./model_output/best_model.pth
+[22:46:14.123] Train epoch: 19 : loss : 0.137951, loss_ce: 0.036152, loss_dice: 0.205818
+[22:46:17.834] Val epoch: 19 : loss : 0.354351, loss_ce: 0.030642, loss_dice: 0.570156
+[22:46:17.938] save model to ./model_output/best_model.pth
+[22:46:25.743] Train epoch: 20 : loss : 0.130130, loss_ce: 0.033620, loss_dice: 0.194470
+[22:46:29.570] Val epoch: 20 : loss : 0.354553, loss_ce: 0.029570, loss_dice: 0.571208
+[22:46:29.672] save model to ./model_output/last_model.pth
+[22:46:37.500] Train epoch: 21 : loss : 0.123500, loss_ce: 0.032739, loss_dice: 0.184008
+[22:46:41.436] Val epoch: 21 : loss : 0.347541, loss_ce: 0.027044, loss_dice: 0.561205
+[22:46:41.542] save model to ./model_output/best_model.pth
+[22:46:49.338] Train epoch: 22 : loss : 0.127458, loss_ce: 0.034115, loss_dice: 0.189686
+[22:46:53.293] Val epoch: 22 : loss : 0.352624, loss_ce: 0.030618, loss_dice: 0.567294
+[22:46:53.399] save model to ./model_output/last_model.pth
+[22:47:01.210] Train epoch: 23 : loss : 0.125098, loss_ce: 0.031262, loss_dice: 0.187656
+[22:47:04.982] Val epoch: 23 : loss : 0.346784, loss_ce: 0.026909, loss_dice: 0.560034
+[22:47:05.092] save model to ./model_output/best_model.pth
+[22:47:12.891] Train epoch: 24 : loss : 0.111418, loss_ce: 0.029584, loss_dice: 0.165974
+[22:47:16.725] Val epoch: 24 : loss : 0.350809, loss_ce: 0.029388, loss_dice: 0.565089
+[22:47:16.830] save model to ./model_output/last_model.pth
+[22:47:24.635] Train epoch: 25 : loss : 0.111887, loss_ce: 0.029330, loss_dice: 0.166925
+[22:47:28.420] Val epoch: 25 : loss : 0.342394, loss_ce: 0.024962, loss_dice: 0.554015
+[22:47:28.526] save model to ./model_output/best_model.pth
+[22:47:36.341] Train epoch: 26 : loss : 0.114960, loss_ce: 0.030013, loss_dice: 0.171591
+[22:47:40.286] Val epoch: 26 : loss : 0.342905, loss_ce: 0.025702, loss_dice: 0.554373
+[22:47:40.395] save model to ./model_output/last_model.pth
+[22:47:48.212] Train epoch: 27 : loss : 0.109066, loss_ce: 0.028036, loss_dice: 0.163086
+[22:47:52.056] Val epoch: 27 : loss : 0.348422, loss_ce: 0.032022, loss_dice: 0.559355
+[22:47:52.165] save model to ./model_output/last_model.pth
+[22:47:59.972] Train epoch: 28 : loss : 0.110006, loss_ce: 0.027554, loss_dice: 0.164975
+[22:48:03.764] Val epoch: 28 : loss : 0.339687, loss_ce: 0.023987, loss_dice: 0.550153
+[22:48:03.868] save model to ./model_output/best_model.pth
+[22:48:11.703] Train epoch: 29 : loss : 0.103546, loss_ce: 0.027335, loss_dice: 0.154353
+[22:48:15.580] Val epoch: 29 : loss : 0.338773, loss_ce: 0.025980, loss_dice: 0.547303
+[22:48:15.691] save model to ./model_output/best_model.pth
+[22:48:23.512] Train epoch: 30 : loss : 0.105691, loss_ce: 0.025872, loss_dice: 0.158903
+[22:48:27.547] Val epoch: 30 : loss : 0.336059, loss_ce: 0.022734, loss_dice: 0.544942
+[22:48:27.654] save model to ./model_output/best_model.pth
+[22:48:35.444] Train epoch: 31 : loss : 0.102513, loss_ce: 0.025680, loss_dice: 0.153735
+[22:48:39.331] Val epoch: 31 : loss : 0.333863, loss_ce: 0.022139, loss_dice: 0.541679
+[22:48:39.440] save model to ./model_output/best_model.pth
+[22:48:47.232] Train epoch: 32 : loss : 0.101335, loss_ce: 0.026300, loss_dice: 0.151358
+[22:48:50.979] Val epoch: 32 : loss : 0.336586, loss_ce: 0.023592, loss_dice: 0.545249
+[22:48:51.085] save model to ./model_output/last_model.pth
+[22:48:58.907] Train epoch: 33 : loss : 0.094824, loss_ce: 0.025123, loss_dice: 0.141292
+[22:49:02.674] Val epoch: 33 : loss : 0.333188, loss_ce: 0.022514, loss_dice: 0.540303
+[22:49:02.774] save model to ./model_output/best_model.pth
+[22:49:10.588] Train epoch: 34 : loss : 0.102842, loss_ce: 0.024883, loss_dice: 0.154814
+[22:49:14.352] Val epoch: 34 : loss : 0.331629, loss_ce: 0.021395, loss_dice: 0.538451
+[22:49:14.459] save model to ./model_output/best_model.pth
+[22:49:22.271] Train epoch: 35 : loss : 0.098454, loss_ce: 0.025154, loss_dice: 0.147321
+[22:49:26.160] Val epoch: 35 : loss : 0.332369, loss_ce: 0.021809, loss_dice: 0.539410
+[22:49:26.266] save model to ./model_output/last_model.pth
+[22:49:34.073] Train epoch: 36 : loss : 0.094280, loss_ce: 0.023909, loss_dice: 0.141195
+[22:49:37.855] Val epoch: 36 : loss : 0.332318, loss_ce: 0.022140, loss_dice: 0.539103
+[22:49:37.965] save model to ./model_output/last_model.pth
+[22:49:45.762] Train epoch: 37 : loss : 0.091232, loss_ce: 0.023084, loss_dice: 0.136663
+[22:49:49.452] Val epoch: 37 : loss : 0.329598, loss_ce: 0.020444, loss_dice: 0.535702
+[22:49:49.555] save model to ./model_output/best_model.pth
+[22:49:57.371] Train epoch: 38 : loss : 0.090888, loss_ce: 0.023078, loss_dice: 0.136095
+[22:50:01.062] Val epoch: 38 : loss : 0.326148, loss_ce: 0.019805, loss_dice: 0.530376
+[22:50:01.175] save model to ./model_output/best_model.pth
+[22:50:08.975] Train epoch: 39 : loss : 0.086147, loss_ce: 0.022671, loss_dice: 0.128465
+[22:50:12.642] Val epoch: 39 : loss : 0.325364, loss_ce: 0.019868, loss_dice: 0.529028
+[22:50:12.744] save model to ./model_output/best_model.pth
+[22:50:20.521] Train epoch: 40 : loss : 0.083917, loss_ce: 0.021502, loss_dice: 0.125528
+[22:50:24.327] Val epoch: 40 : loss : 0.323640, loss_ce: 0.019802, loss_dice: 0.526198
+[22:50:24.433] save model to ./model_output/best_model.pth
+[22:50:32.235] Train epoch: 41 : loss : 0.088481, loss_ce: 0.022187, loss_dice: 0.132677
+[22:50:35.933] Val epoch: 41 : loss : 0.323058, loss_ce: 0.019926, loss_dice: 0.525146
+[22:50:36.039] save model to ./model_output/best_model.pth
+[22:50:43.836] Train epoch: 42 : loss : 0.094941, loss_ce: 0.022418, loss_dice: 0.143289
+[22:50:47.703] Val epoch: 42 : loss : 0.309102, loss_ce: 0.019127, loss_dice: 0.502419
+[22:50:47.807] save model to ./model_output/best_model.pth
+[22:50:55.618] Train epoch: 43 : loss : 0.088487, loss_ce: 0.023361, loss_dice: 0.131904
+[22:50:59.534] Val epoch: 43 : loss : 0.310220, loss_ce: 0.018963, loss_dice: 0.504391
+[22:50:59.642] save model to ./model_output/last_model.pth
+[22:51:07.442] Train epoch: 44 : loss : 0.081537, loss_ce: 0.021402, loss_dice: 0.121627
+[22:51:11.188] Val epoch: 44 : loss : 0.313348, loss_ce: 0.018786, loss_dice: 0.509723
+[22:51:11.299] save model to ./model_output/last_model.pth
+[22:51:19.086] Train epoch: 45 : loss : 0.082239, loss_ce: 0.021290, loss_dice: 0.122871
+[22:51:22.761] Val epoch: 45 : loss : 0.306501, loss_ce: 0.020069, loss_dice: 0.497455
+[22:51:22.871] save model to ./model_output/best_model.pth
+[22:51:30.681] Train epoch: 46 : loss : 0.082728, loss_ce: 0.021092, loss_dice: 0.123818
+[22:51:34.521] Val epoch: 46 : loss : 0.312691, loss_ce: 0.017997, loss_dice: 0.509153
+[22:51:34.632] save model to ./model_output/last_model.pth
+[22:51:42.419] Train epoch: 47 : loss : 0.082851, loss_ce: 0.021012, loss_dice: 0.124078
+[22:51:46.154] Val epoch: 47 : loss : 0.316951, loss_ce: 0.018420, loss_dice: 0.515972
+[22:51:46.259] save model to ./model_output/last_model.pth
+[22:51:54.057] Train epoch: 48 : loss : 0.082725, loss_ce: 0.021861, loss_dice: 0.123301
+[22:51:57.856] Val epoch: 48 : loss : 0.316076, loss_ce: 0.018903, loss_dice: 0.514191
+[22:51:57.967] save model to ./model_output/last_model.pth
+[22:52:05.764] Train epoch: 49 : loss : 0.082902, loss_ce: 0.020410, loss_dice: 0.124563
+[22:52:09.474] Val epoch: 49 : loss : 0.312228, loss_ce: 0.018173, loss_dice: 0.508265
+[22:52:09.580] save model to ./model_output/last_model.pth
+[22:52:17.382] Train epoch: 50 : loss : 0.077852, loss_ce: 0.020154, loss_dice: 0.116318
+[22:52:21.300] Val epoch: 50 : loss : 0.315381, loss_ce: 0.018928, loss_dice: 0.513016
+[22:52:21.408] save model to ./model_output/last_model.pth
+[22:52:29.189] Train epoch: 51 : loss : 0.080440, loss_ce: 0.021554, loss_dice: 0.119697
+[22:52:33.051] Val epoch: 51 : loss : 0.315971, loss_ce: 0.018635, loss_dice: 0.514195
+[22:52:33.159] save model to ./model_output/last_model.pth
+[22:52:40.946] Train epoch: 52 : loss : 0.078200, loss_ce: 0.020163, loss_dice: 0.116892
+[22:52:44.779] Val epoch: 52 : loss : 0.311201, loss_ce: 0.018442, loss_dice: 0.506374
+[22:52:44.889] save model to ./model_output/last_model.pth
+[22:52:52.704] Train epoch: 53 : loss : 0.082151, loss_ce: 0.019879, loss_dice: 0.123665
+[22:52:56.520] Val epoch: 53 : loss : 0.310835, loss_ce: 0.016797, loss_dice: 0.506861
+[22:52:56.633] save model to ./model_output/last_model.pth
+[22:53:04.435] Train epoch: 54 : loss : 0.075683, loss_ce: 0.019474, loss_dice: 0.113156
+[22:53:08.237] Val epoch: 54 : loss : 0.316001, loss_ce: 0.017919, loss_dice: 0.514723
+[22:53:08.344] save model to ./model_output/last_model.pth
+[22:53:16.151] Train epoch: 55 : loss : 0.081927, loss_ce: 0.019225, loss_dice: 0.123728
+[22:53:19.864] Val epoch: 55 : loss : 0.305738, loss_ce: 0.016927, loss_dice: 0.498278
+[22:53:19.970] save model to ./model_output/best_model.pth
+[22:53:27.773] Train epoch: 56 : loss : 0.076666, loss_ce: 0.019600, loss_dice: 0.114711
+[22:53:31.638] Val epoch: 56 : loss : 0.285417, loss_ce: 0.016444, loss_dice: 0.464733
+[22:53:31.739] save model to ./model_output/best_model.pth
+[22:53:39.523] Train epoch: 57 : loss : 0.073322, loss_ce: 0.018530, loss_dice: 0.109850
+[22:53:43.429] Val epoch: 57 : loss : 0.289625, loss_ce: 0.016720, loss_dice: 0.471563
+[22:53:43.536] save model to ./model_output/last_model.pth
+[22:53:51.338] Train epoch: 58 : loss : 0.075952, loss_ce: 0.018716, loss_dice: 0.114109
+[23:06:43.131] Val epoch: 58 : loss : 0.286577, loss_ce: 0.016867, loss_dice: 0.466383
+[23:06:43.241] save model to ./model_output/last_model.pth
+[23:06:51.022] Train epoch: 59 : loss : 0.074817, loss_ce: 0.019556, loss_dice: 0.111658
+[23:06:54.665] Val epoch: 59 : loss : 0.260115, loss_ce: 0.016915, loss_dice: 0.422249
+[23:06:54.772] save model to ./model_output/best_model.pth
+[23:07:02.548] Train epoch: 60 : loss : 0.075207, loss_ce: 0.018689, loss_dice: 0.112887
+[23:07:06.328] Val epoch: 60 : loss : 0.262842, loss_ce: 0.016293, loss_dice: 0.427208
+[23:07:06.432] save model to ./model_output/last_model.pth
+[23:07:14.226] Train epoch: 61 : loss : 0.072646, loss_ce: 0.019004, loss_dice: 0.108407
+[23:07:18.004] Val epoch: 61 : loss : 0.266055, loss_ce: 0.016347, loss_dice: 0.432527
+[23:07:18.115] save model to ./model_output/last_model.pth
+[23:07:25.885] Train epoch: 62 : loss : 0.071901, loss_ce: 0.018272, loss_dice: 0.107654
+[23:07:29.984] Val epoch: 62 : loss : 0.265155, loss_ce: 0.016110, loss_dice: 0.431186
+[23:07:30.091] save model to ./model_output/last_model.pth
+[23:07:37.908] Train epoch: 63 : loss : 0.069851, loss_ce: 0.018034, loss_dice: 0.104396
+[23:07:41.890] Val epoch: 63 : loss : 0.268246, loss_ce: 0.016032, loss_dice: 0.436388
+[23:07:42.069] save model to ./model_output/last_model.pth
+[23:07:49.863] Train epoch: 64 : loss : 0.069538, loss_ce: 0.018106, loss_dice: 0.103825
+[23:07:53.591] Val epoch: 64 : loss : 0.276715, loss_ce: 0.016120, loss_dice: 0.450446
+[23:07:53.699] save model to ./model_output/last_model.pth
+[23:08:01.483] Train epoch: 65 : loss : 0.067829, loss_ce: 0.017796, loss_dice: 0.101185
+[23:08:05.415] Val epoch: 65 : loss : 0.275824, loss_ce: 0.015541, loss_dice: 0.449345
+[23:08:05.525] save model to ./model_output/last_model.pth
+[23:08:13.330] Train epoch: 66 : loss : 0.073159, loss_ce: 0.017729, loss_dice: 0.110112
+[23:08:17.042] Val epoch: 66 : loss : 0.280425, loss_ce: 0.016944, loss_dice: 0.456080
+[23:08:17.152] save model to ./model_output/last_model.pth
+[23:08:24.959] Train epoch: 67 : loss : 0.068779, loss_ce: 0.017785, loss_dice: 0.102775
+[23:08:28.777] Val epoch: 67 : loss : 0.282537, loss_ce: 0.017175, loss_dice: 0.459445
+[23:08:28.886] save model to ./model_output/last_model.pth
+[23:08:36.665] Train epoch: 68 : loss : 0.066577, loss_ce: 0.018020, loss_dice: 0.098948
+[23:08:40.513] Val epoch: 68 : loss : 0.269433, loss_ce: 0.015879, loss_dice: 0.438470
+[23:08:40.621] save model to ./model_output/last_model.pth
+[23:08:48.419] Train epoch: 69 : loss : 0.067433, loss_ce: 0.018031, loss_dice: 0.100367
+[23:08:52.262] Val epoch: 69 : loss : 0.264676, loss_ce: 0.015429, loss_dice: 0.430841
+[23:08:52.373] save model to ./model_output/last_model.pth
+[23:09:00.174] Train epoch: 70 : loss : 0.067748, loss_ce: 0.017772, loss_dice: 0.101066
+[23:09:03.965] Val epoch: 70 : loss : 0.279461, loss_ce: 0.016103, loss_dice: 0.455034
+[23:09:04.075] save model to ./model_output/last_model.pth
+[23:09:11.890] Train epoch: 71 : loss : 0.069259, loss_ce: 0.017608, loss_dice: 0.103694
+[23:09:15.580] Val epoch: 71 : loss : 0.285697, loss_ce: 0.015518, loss_dice: 0.465816
+[23:09:15.684] save model to ./model_output/last_model.pth
+[23:09:23.477] Train epoch: 72 : loss : 0.071579, loss_ce: 0.017100, loss_dice: 0.107898
+[23:09:27.275] Val epoch: 72 : loss : 0.259286, loss_ce: 0.015537, loss_dice: 0.421786
+[23:09:27.381] save model to ./model_output/best_model.pth
+[23:09:35.171] Train epoch: 73 : loss : 0.066947, loss_ce: 0.017886, loss_dice: 0.099655
+[23:09:39.051] Val epoch: 73 : loss : 0.265449, loss_ce: 0.015559, loss_dice: 0.432042
+[23:09:39.160] save model to ./model_output/last_model.pth
+[23:09:46.938] Train epoch: 74 : loss : 0.069391, loss_ce: 0.016885, loss_dice: 0.104396
+[23:09:50.703] Val epoch: 74 : loss : 0.264334, loss_ce: 0.015061, loss_dice: 0.430515
+[23:09:50.815] save model to ./model_output/last_model.pth
+[23:09:58.620] Train epoch: 75 : loss : 0.068313, loss_ce: 0.017012, loss_dice: 0.102513
+[23:10:02.470] Val epoch: 75 : loss : 0.265449, loss_ce: 0.015210, loss_dice: 0.432276
+[23:10:02.579] save model to ./model_output/last_model.pth
+[23:10:10.379] Train epoch: 76 : loss : 0.064891, loss_ce: 0.016666, loss_dice: 0.097041
+[23:10:14.298] Val epoch: 76 : loss : 0.260558, loss_ce: 0.014533, loss_dice: 0.424575
+[23:10:14.404] save model to ./model_output/last_model.pth
+[23:10:22.189] Train epoch: 77 : loss : 0.063107, loss_ce: 0.016925, loss_dice: 0.093896
+[23:10:25.931] Val epoch: 77 : loss : 0.270247, loss_ce: 0.015069, loss_dice: 0.440365
+[23:10:26.038] save model to ./model_output/last_model.pth
+[23:10:33.894] Train epoch: 78 : loss : 0.067698, loss_ce: 0.016837, loss_dice: 0.101605
+[23:10:37.676] Val epoch: 78 : loss : 0.248510, loss_ce: 0.015446, loss_dice: 0.403887
+[23:10:37.783] save model to ./model_output/best_model.pth
+[23:10:45.592] Train epoch: 79 : loss : 0.075542, loss_ce: 0.019565, loss_dice: 0.112860
+[23:10:49.267] Val epoch: 79 : loss : 0.240881, loss_ce: 0.015089, loss_dice: 0.391409
+[23:10:49.373] save model to ./model_output/best_model.pth
+[23:10:57.157] Train epoch: 80 : loss : 0.066704, loss_ce: 0.017426, loss_dice: 0.099555
+[23:11:00.791] Val epoch: 80 : loss : 0.242679, loss_ce: 0.014798, loss_dice: 0.394599
+[23:11:00.901] save model to ./model_output/last_model.pth
+[23:11:08.712] Train epoch: 81 : loss : 0.064712, loss_ce: 0.017164, loss_dice: 0.096411
+[23:11:12.560] Val epoch: 81 : loss : 0.244231, loss_ce: 0.015619, loss_dice: 0.396640
+[23:11:12.666] save model to ./model_output/last_model.pth
+[23:11:20.472] Train epoch: 82 : loss : 0.065241, loss_ce: 0.016792, loss_dice: 0.097540
+[23:11:24.275] Val epoch: 82 : loss : 0.244658, loss_ce: 0.014919, loss_dice: 0.397817
+[23:11:24.382] save model to ./model_output/last_model.pth
+[23:11:32.189] Train epoch: 83 : loss : 0.066627, loss_ce: 0.016789, loss_dice: 0.099852
+[23:11:35.890] Val epoch: 83 : loss : 0.240058, loss_ce: 0.014636, loss_dice: 0.390339
+[23:11:35.999] save model to ./model_output/best_model.pth
+[23:11:43.817] Train epoch: 84 : loss : 0.067495, loss_ce: 0.017021, loss_dice: 0.101145
+[23:11:47.565] Val epoch: 84 : loss : 0.236161, loss_ce: 0.014470, loss_dice: 0.383955
+[23:11:47.673] save model to ./model_output/best_model.pth
+[23:11:55.486] Train epoch: 85 : loss : 0.067586, loss_ce: 0.016470, loss_dice: 0.101663
+[23:11:59.391] Val epoch: 85 : loss : 0.240304, loss_ce: 0.014620, loss_dice: 0.390760
+[23:11:59.497] save model to ./model_output/last_model.pth
+[23:12:07.294] Train epoch: 86 : loss : 0.065060, loss_ce: 0.016314, loss_dice: 0.097557
+[23:12:10.925] Val epoch: 86 : loss : 0.233257, loss_ce: 0.014348, loss_dice: 0.379196
+[23:12:11.031] save model to ./model_output/best_model.pth
+[23:12:18.861] Train epoch: 87 : loss : 0.062138, loss_ce: 0.016306, loss_dice: 0.092693
+[23:12:22.529] Val epoch: 87 : loss : 0.226775, loss_ce: 0.014403, loss_dice: 0.368357
+[23:12:22.636] save model to ./model_output/best_model.pth
+[23:12:30.418] Train epoch: 88 : loss : 0.066978, loss_ce: 0.017681, loss_dice: 0.099842
+[23:12:34.121] Val epoch: 88 : loss : 0.223304, loss_ce: 0.014613, loss_dice: 0.362432
+[23:12:34.224] save model to ./model_output/best_model.pth
+[23:12:42.035] Train epoch: 89 : loss : 0.064588, loss_ce: 0.016680, loss_dice: 0.096526
+[23:12:45.659] Val epoch: 89 : loss : 0.231624, loss_ce: 0.014401, loss_dice: 0.376439
+[23:12:45.767] save model to ./model_output/last_model.pth
+[23:12:53.627] Train epoch: 90 : loss : 0.062301, loss_ce: 0.016513, loss_dice: 0.092827
+[23:12:57.441] Val epoch: 90 : loss : 0.225829, loss_ce: 0.014800, loss_dice: 0.366515
+[23:12:57.545] save model to ./model_output/last_model.pth
+[23:13:05.367] Train epoch: 91 : loss : 0.064475, loss_ce: 0.016349, loss_dice: 0.096559
+[23:13:09.100] Val epoch: 91 : loss : 0.209099, loss_ce: 0.014380, loss_dice: 0.338912
+[23:13:09.209] save model to ./model_output/best_model.pth
+[23:13:17.053] Train epoch: 92 : loss : 0.061254, loss_ce: 0.016055, loss_dice: 0.091387
+[23:13:20.838] Val epoch: 92 : loss : 0.209116, loss_ce: 0.013924, loss_dice: 0.339244
+[23:13:20.947] save model to ./model_output/last_model.pth
+[23:13:28.763] Train epoch: 93 : loss : 0.060834, loss_ce: 0.015700, loss_dice: 0.090923
+[23:13:32.592] Val epoch: 93 : loss : 0.216636, loss_ce: 0.014212, loss_dice: 0.351585
+[23:13:32.698] save model to ./model_output/last_model.pth
+[23:13:40.525] Train epoch: 94 : loss : 0.063705, loss_ce: 0.015542, loss_dice: 0.095814
+[23:13:44.415] Val epoch: 94 : loss : 0.200491, loss_ce: 0.014000, loss_dice: 0.324818
+[23:13:44.524] save model to ./model_output/best_model.pth
+[23:13:52.323] Train epoch: 95 : loss : 0.061214, loss_ce: 0.017365, loss_dice: 0.090447
+[23:13:56.238] Val epoch: 95 : loss : 0.197601, loss_ce: 0.014851, loss_dice: 0.319435
+[23:13:56.352] save model to ./model_output/best_model.pth
+[23:14:04.153] Train epoch: 96 : loss : 0.063906, loss_ce: 0.016036, loss_dice: 0.095819
+[23:14:07.854] Val epoch: 96 : loss : 0.196613, loss_ce: 0.014412, loss_dice: 0.318081
+[23:14:07.964] save model to ./model_output/best_model.pth
+[23:14:15.748] Train epoch: 97 : loss : 0.060072, loss_ce: 0.016000, loss_dice: 0.089453
+[23:14:19.443] Val epoch: 97 : loss : 0.198241, loss_ce: 0.014584, loss_dice: 0.320679
+[23:14:19.548] save model to ./model_output/last_model.pth
+[23:14:27.368] Train epoch: 98 : loss : 0.059812, loss_ce: 0.016172, loss_dice: 0.088905
+[23:14:31.131] Val epoch: 98 : loss : 0.203325, loss_ce: 0.014124, loss_dice: 0.329459
+[23:14:31.240] save model to ./model_output/last_model.pth
+[23:14:39.049] Train epoch: 99 : loss : 0.060600, loss_ce: 0.015399, loss_dice: 0.090734
+[23:14:42.850] Val epoch: 99 : loss : 0.203257, loss_ce: 0.013861, loss_dice: 0.329520
+[23:14:42.960] save model to ./model_output/last_model.pth
+[23:14:50.768] Train epoch: 100 : loss : 0.063954, loss_ce: 0.015664, loss_dice: 0.096147
+[23:14:54.567] Val epoch: 100 : loss : 0.179989, loss_ce: 0.018391, loss_dice: 0.287721
+[23:14:54.674] save model to ./model_output/best_model.pth
+[23:15:02.487] Train epoch: 101 : loss : 0.115488, loss_ce: 0.036375, loss_dice: 0.168230
+[23:15:06.304] Val epoch: 101 : loss : 0.222377, loss_ce: 0.016261, loss_dice: 0.359787
+[23:15:06.415] save model to ./model_output/last_model.pth
+[23:15:14.200] Train epoch: 102 : loss : 0.070768, loss_ce: 0.018281, loss_dice: 0.105760
+[23:15:17.931] Val epoch: 102 : loss : 0.209149, loss_ce: 0.014812, loss_dice: 0.338707
+[23:15:18.040] save model to ./model_output/last_model.pth
+[23:15:25.844] Train epoch: 103 : loss : 0.069178, loss_ce: 0.017330, loss_dice: 0.103744
+[23:15:29.686] Val epoch: 103 : loss : 0.201780, loss_ce: 0.014580, loss_dice: 0.326580
+[23:15:29.793] save model to ./model_output/last_model.pth
+[23:15:37.597] Train epoch: 104 : loss : 0.071505, loss_ce: 0.016795, loss_dice: 0.107978
+[23:15:41.199] Val epoch: 104 : loss : 0.220637, loss_ce: 0.014629, loss_dice: 0.357976
+[23:15:41.305] save model to ./model_output/last_model.pth
+[23:15:49.113] Train epoch: 105 : loss : 0.066516, loss_ce: 0.015964, loss_dice: 0.100217
+[23:15:52.936] Val epoch: 105 : loss : 0.208929, loss_ce: 0.014456, loss_dice: 0.338577
+[23:15:53.043] save model to ./model_output/last_model.pth
+[23:16:00.842] Train epoch: 106 : loss : 0.064024, loss_ce: 0.015862, loss_dice: 0.096133
+[23:16:04.481] Val epoch: 106 : loss : 0.205179, loss_ce: 0.014415, loss_dice: 0.332354
+[23:16:04.589] save model to ./model_output/last_model.pth
+[23:16:12.390] Train epoch: 107 : loss : 0.060213, loss_ce: 0.016015, loss_dice: 0.089679
+[23:16:16.132] Val epoch: 107 : loss : 0.201136, loss_ce: 0.014031, loss_dice: 0.325872
+[23:16:16.243] save model to ./model_output/last_model.pth
+[23:16:24.016] Train epoch: 108 : loss : 0.057774, loss_ce: 0.015863, loss_dice: 0.085715
+[23:16:27.806] Val epoch: 108 : loss : 0.209139, loss_ce: 0.013848, loss_dice: 0.339333
+[23:16:27.949] save model to ./model_output/last_model.pth
+[23:16:35.758] Train epoch: 109 : loss : 0.064051, loss_ce: 0.016066, loss_dice: 0.096041
+[23:16:39.541] Val epoch: 109 : loss : 0.206935, loss_ce: 0.013960, loss_dice: 0.335585
+[23:16:39.646] save model to ./model_output/last_model.pth
+[23:16:47.470] Train epoch: 110 : loss : 0.059681, loss_ce: 0.015390, loss_dice: 0.089208
+[23:16:51.270] Val epoch: 110 : loss : 0.201492, loss_ce: 0.013930, loss_dice: 0.326533
+[23:16:51.377] save model to ./model_output/last_model.pth
+[23:16:59.151] Train epoch: 111 : loss : 0.062034, loss_ce: 0.016121, loss_dice: 0.092643
+[23:17:02.833] Val epoch: 111 : loss : 0.200191, loss_ce: 0.013682, loss_dice: 0.324531
+[23:17:02.940] save model to ./model_output/last_model.pth
+[23:17:10.740] Train epoch: 112 : loss : 0.064971, loss_ce: 0.015664, loss_dice: 0.097842
+[23:17:14.592] Val epoch: 112 : loss : 0.199737, loss_ce: 0.014183, loss_dice: 0.323439
+[23:17:14.703] save model to ./model_output/last_model.pth
+[23:17:22.500] Train epoch: 113 : loss : 0.059623, loss_ce: 0.015546, loss_dice: 0.089007
+[23:17:26.240] Val epoch: 113 : loss : 0.197239, loss_ce: 0.013924, loss_dice: 0.319450
+[23:17:26.347] save model to ./model_output/last_model.pth
+[23:17:34.149] Train epoch: 114 : loss : 0.060761, loss_ce: 0.015380, loss_dice: 0.091015
+[23:17:38.064] Val epoch: 114 : loss : 0.196907, loss_ce: 0.013620, loss_dice: 0.319099
+[23:17:38.173] save model to ./model_output/last_model.pth
+[23:17:45.962] Train epoch: 115 : loss : 0.061754, loss_ce: 0.015486, loss_dice: 0.092599
+[23:17:49.681] Val epoch: 115 : loss : 0.204322, loss_ce: 0.013648, loss_dice: 0.331438
+[23:17:49.789] save model to ./model_output/last_model.pth
+[23:17:57.586] Train epoch: 116 : loss : 0.064888, loss_ce: 0.015542, loss_dice: 0.097786
+[23:18:01.269] Val epoch: 116 : loss : 0.192008, loss_ce: 0.013501, loss_dice: 0.311012
+[23:18:01.375] save model to ./model_output/last_model.pth
+[23:18:09.167] Train epoch: 117 : loss : 0.058341, loss_ce: 0.016046, loss_dice: 0.086538
+[23:18:12.942] Val epoch: 117 : loss : 0.192184, loss_ce: 0.013491, loss_dice: 0.311313
+[23:18:13.043] save model to ./model_output/last_model.pth
+[23:18:20.833] Train epoch: 118 : loss : 0.057074, loss_ce: 0.015220, loss_dice: 0.084977
+[23:18:24.652] Val epoch: 118 : loss : 0.197949, loss_ce: 0.013770, loss_dice: 0.320736
+[23:18:24.757] save model to ./model_output/last_model.pth
+[23:18:32.552] Train epoch: 119 : loss : 0.061082, loss_ce: 0.015053, loss_dice: 0.091768
+[23:18:36.523] Val epoch: 119 : loss : 0.187027, loss_ce: 0.013467, loss_dice: 0.302733
+[23:18:36.630] save model to ./model_output/last_model.pth
+[23:18:44.434] Train epoch: 120 : loss : 0.065723, loss_ce: 0.018087, loss_dice: 0.097481
+[23:18:48.114] Val epoch: 120 : loss : 0.197117, loss_ce: 0.013747, loss_dice: 0.319364
+[23:18:48.226] save model to ./model_output/last_model.pth
+[23:18:56.038] Train epoch: 121 : loss : 0.060558, loss_ce: 0.015361, loss_dice: 0.090690
+[23:18:59.850] Val epoch: 121 : loss : 0.200219, loss_ce: 0.013570, loss_dice: 0.324651
+[23:18:59.956] save model to ./model_output/last_model.pth
+[23:19:07.751] Train epoch: 122 : loss : 0.058136, loss_ce: 0.015212, loss_dice: 0.086751
+[23:19:11.558] Val epoch: 122 : loss : 0.201882, loss_ce: 0.013755, loss_dice: 0.327301
+[23:19:11.667] save model to ./model_output/last_model.pth
+[23:19:19.493] Train epoch: 123 : loss : 0.061630, loss_ce: 0.015074, loss_dice: 0.092667
+[23:19:23.261] Val epoch: 123 : loss : 0.191849, loss_ce: 0.013342, loss_dice: 0.310854
+[23:19:23.365] save model to ./model_output/last_model.pth
+[23:19:31.185] Train epoch: 124 : loss : 0.058430, loss_ce: 0.015465, loss_dice: 0.087073
+[23:19:34.907] Val epoch: 124 : loss : 0.183713, loss_ce: 0.013489, loss_dice: 0.297195
+[23:19:35.017] save model to ./model_output/last_model.pth
+[23:19:42.803] Train epoch: 125 : loss : 0.059244, loss_ce: 0.016336, loss_dice: 0.087849
+[23:19:46.494] Val epoch: 125 : loss : 0.183849, loss_ce: 0.013460, loss_dice: 0.297442
+[23:19:46.606] save model to ./model_output/last_model.pth
+[23:19:54.412] Train epoch: 126 : loss : 0.057132, loss_ce: 0.015079, loss_dice: 0.085168
+[23:19:58.257] Val epoch: 126 : loss : 0.184142, loss_ce: 0.013362, loss_dice: 0.297996
+[23:19:58.363] save model to ./model_output/last_model.pth
+[23:20:06.168] Train epoch: 127 : loss : 0.056841, loss_ce: 0.015019, loss_dice: 0.084723
+[23:20:09.905] Val epoch: 127 : loss : 0.186509, loss_ce: 0.013481, loss_dice: 0.301861
+[23:20:10.012] save model to ./model_output/last_model.pth
+[23:20:17.800] Train epoch: 128 : loss : 0.055578, loss_ce: 0.015335, loss_dice: 0.082406
+[23:20:21.484] Val epoch: 128 : loss : 0.184667, loss_ce: 0.013315, loss_dice: 0.298902
+[23:20:21.592] save model to ./model_output/last_model.pth
+[23:20:29.390] Train epoch: 129 : loss : 0.061906, loss_ce: 0.014996, loss_dice: 0.093178
+[23:20:33.121] Val epoch: 129 : loss : 0.184613, loss_ce: 0.013343, loss_dice: 0.298794
+[23:20:33.232] save model to ./model_output/last_model.pth
+[23:20:41.032] Train epoch: 130 : loss : 0.059808, loss_ce: 0.014793, loss_dice: 0.089817
+[23:20:44.812] Val epoch: 130 : loss : 0.188182, loss_ce: 0.013370, loss_dice: 0.304724
+[23:20:44.918] save model to ./model_output/last_model.pth
+[23:20:52.702] Train epoch: 131 : loss : 0.055070, loss_ce: 0.014597, loss_dice: 0.082051
+[23:20:56.374] Val epoch: 131 : loss : 0.183532, loss_ce: 0.013192, loss_dice: 0.297092
+[23:20:56.480] save model to ./model_output/last_model.pth
+[23:21:04.276] Train epoch: 132 : loss : 0.059200, loss_ce: 0.014704, loss_dice: 0.088864
+[23:21:07.937] Val epoch: 132 : loss : 0.183677, loss_ce: 0.013173, loss_dice: 0.297347
+[23:21:08.044] save model to ./model_output/last_model.pth
+[23:21:15.872] Train epoch: 133 : loss : 0.058549, loss_ce: 0.014606, loss_dice: 0.087844
+[23:21:19.709] Val epoch: 133 : loss : 0.188000, loss_ce: 0.013105, loss_dice: 0.304596
+[23:21:19.820] save model to ./model_output/last_model.pth
+[23:21:27.617] Train epoch: 134 : loss : 0.057525, loss_ce: 0.014953, loss_dice: 0.085906
+[23:21:31.516] Val epoch: 134 : loss : 0.189960, loss_ce: 0.013195, loss_dice: 0.307803
+[23:21:31.621] save model to ./model_output/last_model.pth
+[23:21:39.422] Train epoch: 135 : loss : 0.057566, loss_ce: 0.014764, loss_dice: 0.086100
+[23:22:38.693] Val epoch: 135 : loss : 0.186448, loss_ce: 0.013024, loss_dice: 0.302065
+[23:22:38.799] save model to ./model_output/last_model.pth
+[23:22:46.590] Train epoch: 136 : loss : 0.055260, loss_ce: 0.014577, loss_dice: 0.082382
+[23:22:50.266] Val epoch: 136 : loss : 0.186460, loss_ce: 0.013040, loss_dice: 0.302073
+[23:22:50.373] save model to ./model_output/last_model.pth
+[23:22:58.159] Train epoch: 137 : loss : 0.060962, loss_ce: 0.014546, loss_dice: 0.091905
+[23:23:01.986] Val epoch: 137 : loss : 0.191134, loss_ce: 0.013027, loss_dice: 0.309872
+[23:23:02.095] save model to ./model_output/last_model.pth
+[23:23:09.875] Train epoch: 138 : loss : 0.057943, loss_ce: 0.014438, loss_dice: 0.086947
+[23:23:13.589] Val epoch: 138 : loss : 0.188865, loss_ce: 0.013040, loss_dice: 0.306081
+[23:23:13.694] save model to ./model_output/last_model.pth
+[23:23:21.480] Train epoch: 139 : loss : 0.052987, loss_ce: 0.014692, loss_dice: 0.078517
+[23:23:25.175] Val epoch: 139 : loss : 0.186038, loss_ce: 0.012893, loss_dice: 0.301467
+[23:23:25.277] save model to ./model_output/last_model.pth
+[23:23:33.081] Train epoch: 140 : loss : 0.054572, loss_ce: 0.014577, loss_dice: 0.081235
+[23:23:36.782] Val epoch: 140 : loss : 0.188950, loss_ce: 0.012918, loss_dice: 0.306304
+[23:23:36.892] save model to ./model_output/last_model.pth
+[23:23:44.694] Train epoch: 141 : loss : 0.056063, loss_ce: 0.014264, loss_dice: 0.083929
+[23:23:48.384] Val epoch: 141 : loss : 0.190174, loss_ce: 0.012935, loss_dice: 0.308333
+[23:23:48.488] save model to ./model_output/last_model.pth
+[23:23:56.258] Train epoch: 142 : loss : 0.057677, loss_ce: 0.014135, loss_dice: 0.086705
+[23:24:00.160] Val epoch: 142 : loss : 0.188527, loss_ce: 0.012964, loss_dice: 0.305569
+[23:24:00.268] save model to ./model_output/last_model.pth
+[23:24:08.088] Train epoch: 143 : loss : 0.056103, loss_ce: 0.014344, loss_dice: 0.083943
+[23:24:11.812] Val epoch: 143 : loss : 0.190623, loss_ce: 0.013070, loss_dice: 0.308993
+[23:24:11.919] save model to ./model_output/last_model.pth
+[23:24:19.709] Train epoch: 144 : loss : 0.056489, loss_ce: 0.014590, loss_dice: 0.084422
+[23:24:23.383] Val epoch: 144 : loss : 0.191642, loss_ce: 0.012998, loss_dice: 0.310739
+[23:24:23.486] save model to ./model_output/last_model.pth
+[23:24:31.290] Train epoch: 145 : loss : 0.055501, loss_ce: 0.014361, loss_dice: 0.082928
+[23:24:35.096] Val epoch: 145 : loss : 0.188581, loss_ce: 0.012864, loss_dice: 0.305725
+[23:24:35.201] save model to ./model_output/last_model.pth
+[23:24:43.013] Train epoch: 146 : loss : 0.055588, loss_ce: 0.014229, loss_dice: 0.083161
+[23:25:00.424] Val epoch: 146 : loss : 0.189063, loss_ce: 0.012935, loss_dice: 0.306482
+[23:25:00.532] save model to ./model_output/last_model.pth
+[23:25:08.337] Train epoch: 147 : loss : 0.054413, loss_ce: 0.014479, loss_dice: 0.081035
+[23:25:12.136] Val epoch: 147 : loss : 0.192126, loss_ce: 0.012990, loss_dice: 0.311550
+[23:25:12.249] save model to ./model_output/last_model.pth
+[23:25:20.027] Train epoch: 148 : loss : 0.057235, loss_ce: 0.014313, loss_dice: 0.085850
+[23:25:23.819] Val epoch: 148 : loss : 0.191055, loss_ce: 0.012967, loss_dice: 0.309780
+[23:25:23.925] save model to ./model_output/last_model.pth
+[23:25:31.728] Train epoch: 149 : loss : 0.056600, loss_ce: 0.014368, loss_dice: 0.084755
+[23:25:35.408] Val epoch: 149 : loss : 0.190003, loss_ce: 0.012952, loss_dice: 0.308038
+[23:25:35.513] save model to ./model_output/last_model.pth
