@@ -47,7 +47,7 @@ class RandomGenerator(object):
         return sample
 
 
-class Synapse_dataset(Dataset):
+class Synapse_dataset(Dataset):#Synapse_dataset是一个PyTorch的Dataset类，用于加载医学图像分割数据（特别是突触数据集）。它支持两种数据格式：.npz文件和.h5文件。
     def __init__(self, base_dir, list_dir, split, transform=None):
         self.transform = transform  # using transform in torch!
         self.split = split
